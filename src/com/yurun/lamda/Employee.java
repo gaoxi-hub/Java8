@@ -1,6 +1,6 @@
 package com.yurun.lamda;
 
-public class Employee {
+public class Employee  {
 
 	private int id;
 	private String name;
@@ -59,7 +59,7 @@ public class Employee {
 	}
 
 	public String show() {
-		return "测试方法引用�?";
+		return "测试方法引用";
 	}
 
 	@Override
