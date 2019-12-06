@@ -4,6 +4,8 @@ import java.util.Optional;
 
 import org.junit.Test;
 
+import com.yurun.inteface.MyInterface;
+
 public class testOptinal {
 	/** 
 	 *	1.创建Optional容器的创建
