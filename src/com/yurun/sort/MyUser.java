@@ -1,6 +1,8 @@
 package com.yurun.sort;
 
-public class MyUser implements Comparable<MyUser> {
+import java.io.Serializable;
+
+public class MyUser  implements Comparable<MyUser>{
 	private String name;
 	private Integer age;
 	private String userId;
@@ -40,6 +42,8 @@ public class MyUser implements Comparable<MyUser> {
 		
 		return -(this.getAge()-o.getAge());
 	}
+	
+	
 	
 	
 

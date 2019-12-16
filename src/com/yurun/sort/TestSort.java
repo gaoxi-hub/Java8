@@ -45,6 +45,14 @@ public class TestSort {
 	}
 	
 	
+	@Test 
+	public  void testRevSort() {		
+		userList.sort(Comparator.comparing(x->x));
+		Collections.sort(userList);
+		Collections.sort(userList,Collections.reverseOrder());
+		System.out.println(userList);
+	}
+	
 
 	
 	
